@@ -1,7 +1,7 @@
 import asyncio
 import os
 
-from ..utilsformat import md_to_text, paste_message
+from ..utils.format import md_to_text, paste_message
 
 
 async def edit_or_reply(
