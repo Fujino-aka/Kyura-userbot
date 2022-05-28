@@ -1,7 +1,7 @@
 FROM python:3.10-slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/Fujino-aka/kyura-userbot.git ./root/userbot
+RUN git clone -b Stable https://github.com/Fujino-aka/kyura-userbot /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
