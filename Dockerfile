@@ -1,7 +1,9 @@
 FROM python:3.10-slim-buster
 
+RUN pip3 install --upgrade pip setuptools
+
 #clonning repo 
-RUN git clone -b Stable https://github.com/Fujino-aka/kyura-userbot /root/userbot
+RUN git clone -b Stable https://github.com/fujino-aka/kyura-userbot /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
