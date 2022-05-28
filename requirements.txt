@@ -66,5 +66,6 @@ urlextract
 validators
 vcsi
 wand
+telethon
 wget
 yt_dlp
