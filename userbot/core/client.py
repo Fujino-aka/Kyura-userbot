@@ -199,7 +199,6 @@ class CatUserBotClient(TelegramClient):
                 except BaseException as e:
                     # Check if we have to disable error logging.
                     LOGS.exception(e)  # Log the error in console
-                    if not disable_errors:
 
             from .session import catub
 
