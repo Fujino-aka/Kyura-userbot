@@ -24,7 +24,6 @@ from ..Config import Config
 from ..utils.utils import runcmd
 from . import CMD_INFO, LOADED_CMDS
 from .cmdinfo import _format_about
-from .data import blacklist_chats_list
 from .events import *
 from .logger import logging
 from .managers import edit_delete
