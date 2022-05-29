@@ -22,7 +22,7 @@ from telethon.errors import (
 
 from ..Config import Config
 from ..utils.utils import runcmd
-from . import BOT_INFO, CMD_INFO, GRP_INFO, LOADED_CMDS, PLG_INFO
+from . import CMD_INFO, LOADED_CMDS
 from .cmdinfo import _format_about
 from .data import blacklist_chats_list
 from .events import *
