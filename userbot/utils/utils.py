@@ -5,7 +5,7 @@ from typing import Tuple
 
 from telethon import functions, types
 
-from ...core.logger import logging
+import logging
 
 LOGS = logging.getLogger(__name__)
 
